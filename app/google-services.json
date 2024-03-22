@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17432327463",
+    "project_id": "haksamo-d6c94",
+    "storage_bucket": "haksamo-d6c94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17432327463:android:978282e356e390b69d6502",
+        "android_client_info": {
+          "package_name": "com.example.haksamo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF3K7kfnbUYoCRNPWifboRWErw1tkaxos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

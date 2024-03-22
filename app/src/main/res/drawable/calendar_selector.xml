@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 캘린더의 날짜가 선택되었거나 선택된 범위에 속하는 경우
+        해당 날짜의 배경-->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/transparent_calendar_elemen" />
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/transparent_calendar_elemen" />
+    <item android:drawable="@android:color/transparent" />
+</selector>

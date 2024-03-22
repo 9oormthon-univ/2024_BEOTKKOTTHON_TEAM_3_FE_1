@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 캘린더의 날짜(Day)의 스타일 설정 -->
+    <item
+        android:state_checked="true"
+        android:color="@color/black" >
+    </item>
+
+    <!--  Range 내부인 경우 -->
+    <item android:state_pressed="true">
+        <color android:color="@color/black"/>
+    </item>
+
+    <!--  선택되지 않은 경우 -->
+    <item android:state_checked="false">
+        <color android:color="#808080" />
+    </item>
+
+    <!--  Range 내부가 아닌 경우 -->
+    <item android:state_pressed="false">
+        <color android:color="@color/black"/>
+    </item>
+</selector>
